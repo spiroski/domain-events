@@ -19,7 +19,7 @@ trait GeneratesEvents
     /**
      * @return array
      */
-    public function release()
+    public function release(): array
     {
         $events = $this->generatedEvents;
         $this->generatedEvents = [];
